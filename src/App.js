@@ -1,22 +1,8 @@
 import React, { Component } from 'react';
-import axios from 'axios';
-
-const API = 'https://api.github.com';
-//let url = `${API}/${username}`
-
-// axios.get('/user', {
-//     params: {
-//       ID: 12345
-//     }
-//   })
-//   .then(function (response) {
-//     console.log(response);
-//   })
-//   .catch(function (error) {
-//     console.log(error);
-//   });
-
-//axios.get(url[, config])
+import {Provider} from 'mobx-react';
+import SearchBar from './components/searchbar';
+import Card from './components/card';
+import store from './store/store';
 
 class App extends Component {
 
@@ -24,9 +10,15 @@ class App extends Component {
 
     render() {
         return (
-            <div>
-                <h1>GIT GIT GIT GIT</h1>
-            </div>
+            <Provider store={store}>
+                <div className='container'>
+                    <div className='header'>
+                        <h1 className='app-header'>GITHUB USERNAME SEARCH UTILITY</h1>
+                    </div>
+                    <SearchBar />
+                    <Card />
+                </div>
+            </Provider>
         );
     }
 }

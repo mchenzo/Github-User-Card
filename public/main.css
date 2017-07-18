@@ -1,0 +1,136 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+  *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
+
+
+.container{
+	margin: 40px;
+	background: #264560;
+	height: 640px;
+}
+
+.app-header{
+	font: 24px 'Lato', sans-serif;
+	color: #FFF;
+}
+
+.header{
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-top: 20px;
+	height: 65px;
+	background: linear-gradient(to left, #C68557, #C65757);
+	text-align: right;
+}
+.search-bar{
+	background: #264560;
+	color: #FFF;
+	width: 240px;
+	height: 40px;
+	float: right;
+	font: 16px 'Lato', sans-serif;
+	outline: none;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	padding-bottom: 4px;
+	padding-left: 10px;
+	border: none;
+	border-bottom: 1px solid #FFF;
+}
+
+.card{
+	height: 400px;
+	width: 100%;
+	padding-left: 30px;
+	padding-right: 30px;
+	visibility: ;
+	margin-top: 120px;
+	margin-right: auto;
+	margin-left: auto;
+	color: #fff;
+}
+
+.avatar{
+	height: 100px;
+	display: inline-block;
+	margin-right: 10px;
+	border-radius: 4px;
+}
+.name{
+	font: 30px 'Lato', sans-serif;
+}
+.big-info{
+	margin-top: 42px;
+	margin-bottom: 24px;
+	font: 16px 'Lato', sans-serif;
+}
+strong{
+	font-size: 20px;
+}
+.big-info p{
+	margin-top: 10px;
+}
+.small-info p{
+	font: 16px 'Lato', sans-serif;
+	margin-top: 7px;
+	margin-bottom: 7px;
+}
+.card img{
+	width: 180px;
+	height: 180px;
+	float: left;
+	margin-right: 30px;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #fff;
+}
