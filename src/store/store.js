@@ -1,21 +1,7 @@
 import {observable, action} from 'mobx'
 import axios from 'axios';
 
-//let url = `${API}/${username}`
-
-// axios.get('/user', {
-//     params: {
-//       ID: 12345
-//     }
-//   })
-//   .then(function (response) {
-//     console.log(response);
-//   })
-//   .catch(function (error) {
-//     console.log(error);
-//   });
 const url = 'https://api.github.com/users/'
-//axios.get(url[, config])
 
 class githubStore{
 
