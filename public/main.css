@@ -87,7 +87,7 @@ table {
 	border-bottom: 1px solid #FFF;
 }
 
-.card{
+#card{
 	height: 400px;
 	width: 100%;
 	padding-left: 30px;
@@ -97,6 +97,7 @@ table {
 	margin-right: auto;
 	margin-left: auto;
 	color: #fff;
+	visibility: hidden;
 }
 
 .avatar{
@@ -124,7 +125,7 @@ strong{
 	margin-top: 7px;
 	margin-bottom: 7px;
 }
-.card img{
+#card img{
 	width: 180px;
 	height: 180px;
 	float: left;

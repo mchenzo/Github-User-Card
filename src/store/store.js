@@ -39,6 +39,9 @@ class githubStore{
 			this.following = response.data.following
 			this.email = response.data.email
 			})
+			.then(() => {
+				document.getElementById('card').style.visibility = 'visible';
+			})
 	}
 
 	@observable email = ''

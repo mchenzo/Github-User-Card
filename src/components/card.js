@@ -11,7 +11,7 @@ class Card extends Component{
 
 	render(){
 		return (
-			<div className='card'>
+			<div id='card'>
 				<img 
 					className='avatar'
 					alt=''
@@ -27,7 +27,7 @@ class Card extends Component{
 				<div className='big-info'>
 					<p><strong>Bio:</strong> {this.props.store.bio}</p>
 					<p>{this.props.store.repos} public repos</p>
-					<p>{this.props.store.bio} gists</p>
+					<p>{this.props.store.gists} gists</p>
 				</div>
 
 			</div>
